@@ -26,7 +26,7 @@ metadata:
   name: nginx-svc
   namespace: default
 spec:
-  type: LoadBalancer  # use LoadBalancer as type here
+  type: LoadBalancer  # use LoadBalancer as type here Load
   ports:
     - port: 80
   selector:
